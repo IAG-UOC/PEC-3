@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO VIAJES</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            border: 2px solid black;
+            width: 80%;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            font-size: 2em;
+            color: #2e3eb5;
+            margin-bottom: 20px;
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .description {
+            width: 40%;
+            font-size: 1em;
+            color: black;
+        }
+        .video-container {
+            width: 50%;
+            border: 2px solid red;
+            padding: 10px;
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            TODO VIAJES
+        </div>
+        <div class="content">
+            <div class="description">
+                Esto es un párrafo para añadir una pequeña descripción del video que hay a la derecha
+            </div>
+            <div class="video-container">
+                <video controls>
+                    <source src="Video_IAG.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
